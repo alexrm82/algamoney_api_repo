@@ -14,7 +14,7 @@ import com.example.algamoneyapi.repository.LancamentoRepository;
 
 @RestController
 @RequestMapping("/lancamentos")
-public class LancamentoResource {
+public class LancamentoResource { 
 
 	@Autowired
 	private LancamentoRepository lancamentoRepository;
